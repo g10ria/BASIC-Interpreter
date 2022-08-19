@@ -1,9 +1,8 @@
 # A simplified BASIC interpreter for your terminal!
 
-To run: 
-Note: after cloning the repository, make sure to clone submodules:
+To run:
 ```
-$ git submodule update --init
+$ git submodule update --init # see Project Structure
 $ make
 $ ./bin/interpreter.bin
 ```
