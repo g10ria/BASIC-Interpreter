@@ -1,0 +1,3 @@
+[submodule "CSON"]
+	path = CSON
+	url = git@github.com:g10ria/CSON.git
