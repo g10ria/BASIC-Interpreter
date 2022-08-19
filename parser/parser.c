@@ -94,7 +94,7 @@ struct statement *parseStatement()
         break;
 
     case ('G'):                  // GOTO
-        arg1.num = atoi(t->val); // test if this works
+        arg1.num = atoi(t->val);
         t++;
         break;
 

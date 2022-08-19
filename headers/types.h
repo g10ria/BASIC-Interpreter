@@ -16,7 +16,7 @@ union argument {
     struct statement *sta;
 };
 
-// pseudo-polymorphism hehe
+// pseudo-polymorphism
 struct statement
 {
     char type; // denotes the "subclass"

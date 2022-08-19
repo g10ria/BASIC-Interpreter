@@ -216,7 +216,7 @@ int strLen(char *str)
 
 /**
  * Main method to run the interpreter
- * Lacking in error handling :P
+ * Todo: add more error handling
  */ 
 int main()
 {
@@ -225,7 +225,7 @@ int main()
     printf("Welcome to your simplified BASIC interpreter.\n\n\
     \tMAX PROGRAM LENGTH: %d lines\n\
     \tMAX LINE LENGTH: %d characters\n\
-    \tUse CTRL-C to quit the interpreter.\n\n",
+    \tUse CTRL-C or enter QUIT to quit the interpreter.\n\n",
            MAX_LINES, MAX_LINE_LENGTH);
 
     char *l = malloc(MAX_LINE_LENGTH * sizeof(char));

@@ -34,7 +34,7 @@ int evaluateExp(struct expression *e, struct entry* map)
         case ('/'):
             return exp1 / exp2;
         default:
-            printf("error! invalid operator");
+            printf("error! invalid math operator");
             exit(1);
         }
     }
@@ -138,7 +138,7 @@ void eval(struct statement *statements, int numStatements, int *lineToIndex)
                 cond = left > right;
                 break;
             default:
-                printf("erororororo");
+                printf("error! invalid boolean operator");
             }
 
             if (cond)
@@ -150,7 +150,7 @@ void eval(struct statement *statements, int numStatements, int *lineToIndex)
 
             break;
 
-        case ('E'): // end
+        case ('E'): // END
             i = numStatements;
             break;
         }
